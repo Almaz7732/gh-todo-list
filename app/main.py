@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Depends, HTTPException
 from app.models import Task, TaskCreate, TaskUpdate
-from app.repostiry import TaskRepository
+from app.repository import TaskRepository
 app = FastAPI()
 
 repository = TaskRepository()

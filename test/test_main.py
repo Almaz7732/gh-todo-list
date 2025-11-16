@@ -3,7 +3,7 @@ from pathlib import Path
 from fastapi.testclient import TestClient
 
 from app.main import app, get_repository
-from app.repostiry import TaskRepository
+from app.repository import TaskRepository
 
 TEST_FILE = "tasks_test.json"
 
